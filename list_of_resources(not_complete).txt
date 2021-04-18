@@ -1,0 +1,40 @@
+Images:
+https://commons.wikimedia.org/wiki/File:YouTube_full-color_icon_(2017).svg
+https://www.nijisanji.jp/members
+https://www.ichikara.co.jp/service-nijisanji/
+https://www.ichikara.co.jp/service/
+https://www.yumenographia.com/#/
+https://www.slee-official.com/
+https://prtimes.jp/main/html/rd/p/000000192.000030865.html
+https://event.nijisanji.app/guidelines/
+
+
+Members Written Content:
+https://www.nijisanji.jp/members --> translated by DeepL
+https://virtualyoutuber.fandom.com/wiki/Virtual_YouTuber_Wiki --> character descriptions from offical website, translated
+https://www.reddit.com/r/Nijisanji/
+https://www.reddit.com/r/Nijisanji/comments/jdx801/weekly_nijisanji_highlight_dola_kuzuha_honma/
+https://www.reddit.com/r/Nijisanji/comments/jv2sp7/weekly_nijisanji_highlight_inui_toko_ange_katrina/
+https://www.reddit.com/r/Nijisanji/comments/j9l9v6/weekly_nijisanji_highlight_tsukino_mito_higuchi/
+https://www.reddit.com/r/Nijisanji/comments/leg7yg/nijisanji_highlight_shiina_yuika/
+https://www.reddit.com/r/Nijisanji/comments/lca71p/nijisanji_highlight_kuzuha/
+https://cdn.discordapp.com/attachments/751824338969297066/819476986895925278/2434_nodesc_v6_nograd.png
+https://www.ichikara.co.jp/en/about/
+https://www.yumenographia.com/faq/
+https://soranews24.com/2019/04/09/vr-hostess-cafe-set-to-open-in-japan-to-let-you-drink-with-cute-anime-girls%E3%80%90video%E3%80%91/
+https://grapee.jp/en/136229
+https://www.deepl.com/en/translator
+https://www.forbes.com/profile/riku-tazumi/?sh=1a9d0ed0e11f
+Member's writeup info used WITH PERMISSION from Asobi24 (Asobi#9908 on Discord)
+
+General help:
+https://css-tricks.com/forums/topic/adding-href-to-button/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://stackoverflow.com/questions/4938716/align-div-elements-side-by-side/4940734
+https://fonts.google.com/specimen/Shrikhand?preview.text_type=custom#standard-styles
+https://fonts.google.com/specimen/Noto+Sans+TC?preview.text_type=custom#standard-styles
+https://fonts.google.com/specimen/Open+Sans?preview.text_type=custom
+https://www.w3schools.com/html/html_layout.asp
+https://clever-solution.com/everything-you-need-to-know-about-rel-noopener-noreferrer-tags-purpose-benefits-and-seo-impact/
+https://stackoverflow.com/questions/4938716/align-div-elements-side-by-side/4940734
+

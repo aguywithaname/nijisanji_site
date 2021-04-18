@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow: auto;
+}
+
+header {
+    background: #333;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sub_container {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.about_container {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.liver_name_title_container {
+    width: 87%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.div_default {
+    text-align: center;
+}
+
+.div_article {
+    text-align: left;
+    margin-top: 75px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 22px;
+
+    position: relative;
+}
+
+.image_default {
+    max-width: 100%;
+    height: auto;
+}
+
+.image_liver {
+    max-width: 450px;
+    height: auto;
+}
+
+.image_rounded_default {
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+}
+
+.image_clickable{
+    transition: all 300ms ease-in-out 0s;
+}
+
+.image_clickable:hover{
+    opacity: 0.5;
+}
+
+nav a {
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+nav a:hover{
+    color: #ff5a00;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #ff5a00;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+    width: 179px;
+    height: 45px;
+}
+
+footer {
+    text-align: center;
+    height: 300px;
+    background: linear-gradient(70deg, rgba(255, 140, 65, 0.98), rgb(255, 90, 0)); /* #FF8C41  #ff5a00 respectively */
+}
+
+.footer_padd {
+    padding-top: 100px;
+
+}
+
+.footer_text {
+    color: azure;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.remove_text_decoration {
+    text-decoration: none;
+}
+
+.home_niji_members { 
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.container:hover .home_niji_members {
+    opacity: 0.3;
+}
+
+.niji_project_text {
+    transition: 0.5s ease;
+    opacity: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    font-family: 'Shrikhand', cursive;
+    font-size: max(10vw);
+    line-height: max(10vw);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color:#2d4b71;
+}
+
+.container:hover .niji_project_text {
+    opacity: 1;
+}
+
+.h1_title {
+    font-family: 'Shrikhand', cursive;
+    font-size: max(5vw);
+    font-weight: 500;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:#ff5a00;
+    margin: 0 auto;
+}
+
+.h2_title {
+    font-family: 'Shrikhand', cursive;
+    font-size: max(3vw);
+    font-weight: 500;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #2d4b71;
+    margin: 0 auto;
+}
+
+.h3_title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: max(2.3vw);
+    -webkit-text-fill-color: #2d4b71;
+    -webkit-text-stroke-color: #2d4b71;
+    opacity: 95%;
+    margin: 0 auto;
+}
+
+.flex_elements_grid_parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.flex_elements_youtube {
+    margin-left: 15px;
+}
+
+.flex_elements_twitter {
+    margin-right: 15px;
+}
+
+.flex_parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex_child_company_left {
+    flex: 0.9;
+    margin-right: 20px;
+}
+
+.flex_child_company_right {
+    flex: 1.1;
+    margin-left: 50px;
+}
+
+.flex_liver_child_one {
+    flex: 0.65;
+}
+
+.flex_liver_child_two {
+    flex: 1.35;
+}
+
+.flex_liver_margin_left {
+    margin-left: 65px;
+}
+
+.flex_liver_margin_right {
+    margin-right: 20px;
+}
+.flex_about_left {
+    flex: 1;
+}
+
+.flex_about_right {
+    flex: 1;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.general_p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+hr {
+    width: 75%;
+}
+
+.button {
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    width: 110px;
+    height: 40px;
+    border: 2px solid rgb(255, 0, 0);
+    background: white none repeat scroll 0% 0%;
+    border: medium none;
+    border-radius: 10%;
+    outline: currentcolor none medium;
+    box-shadow: rgba(66, 66, 66, 0.15) 0px 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.button:hover {
+     opacity: 50%;
+}
